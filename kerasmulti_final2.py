@@ -124,15 +124,6 @@ class LossHistory(keras.callbacks.Callback):
         plt.legend(loc="center right", prop=font1)
         plt.show()
 
-dict = {
-    'rows':'rows.csv',
-	'columns':'columns.csv',
-    'zs':'zs.csv'
-	}
-
-rowdf = pandas.read_csv(dict['rows'], delimiter=" ",header=None)
-columndf = pandas.read_csv(dict['columns'], delimiter=" ",header=None)
-zdf = pandas.read_csv(dict['zs'], delimiter=" ",header=None)
 early_stopping = EarlyStopping(monitor='acc', patience=40)
 
 def getaugmentumdata():
