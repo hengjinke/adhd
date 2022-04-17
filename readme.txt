@@ -6,3 +6,5 @@ Download the augmented training set (newData.rar, newLabel.csv), unzip newData.r
 Download the test set X_test.csv, Y_test.csv
 
 python kerasmulti_final2.py
+
+Any issues please could you kindly contact me at hengjin.ke@whu.edu.cn
